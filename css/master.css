@@ -1,0 +1,15 @@
+h1 {
+  display: flex;
+  font-size: 18px;
+}
+h2 {
+
+}
+h3 {
+display: block;
+text-align: center;
+}
+.feature{
+  display: block;
+  margin: auto;
+}
