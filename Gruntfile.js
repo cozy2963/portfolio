@@ -15,7 +15,7 @@ module.exports = function(grunt) {
           engine: 'im',
           sizes: [{
             width: 800,
-            suffix: '_small_1x',
+            suffix: '_small',
             quality: 30
           }]
         },
@@ -59,12 +59,24 @@ module.exports = function(grunt) {
         }]
       },
     },
+
+    imageoptim: {
+    myTask: {
+      options: {
+        jpegMini: false,
+        imageAlpha: false,
+        quitAfter: true
+      },
+      src: ['images']
+    }
+  }
   });
 
   grunt.loadNpmTasks('grunt-responsive-images');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images']);
+  grunt.loadNpmTasks('grunt-imageoptim');
+  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images', 'imageoptim']);
 
 };
