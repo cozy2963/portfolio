@@ -25,6 +25,7 @@ body {
 }
 .title-logo {
   margin-top: 20px;
+  margin-left: 20px;
 }
 img, embed, object, video {
   max-width: 100%;
