@@ -50,10 +50,11 @@ img {
     font-size: 45px;
 }
 
-.title-logo {
+.title-logo1 {
     width: 100px;
     height: 100px;
-    margin: 20px 20px 0;
+    margin: 10px;
+    padding: 10px 0 10px 10px;
 }
 
 .project {
