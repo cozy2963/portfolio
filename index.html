@@ -1,132 +1,111 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,900" rel="stylesheet">
-    <script   src="http://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>Andrea Cozart-Lundin</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-  <div class="container">
-    <header>
-      <div class="row">
-        <div class="col-md-6">
-          <img class="title-logo" src="images/cozy-800_small.jpg" alt="Picture of me, Andrea Cozart-Lundin" /></div>
-        <div class="col-md-6 text-right text-uppercase">
-          <h1 class="title-super text-thin">Andrea Cozart-Lundin</h1>
-          <h4>Front-end Web Designer</h4>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,900" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="row">
+                <div class="col-md-6">
+                    <img alt="Picture of me, Andrea Cozart-Lundin" class="title-logo" src="images/cozy-800_small.jpg">
+                </div>
+                <div class="col-md-6 text-right text-uppercase">
+                    <h1 class="title-super text-thin">Andrea Cozart-Lundin</h1>
+                    <h4>Front-end Web Designer</h4>
+                </div>
+            </div>
+        </header>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-12 code">
+                <img alt="computer code" class="img-responsive banner" src="images/banner-1200.jpg">
+            </div>
         </div>
-      </div>
-  </header>
-<div class="row">
-  <div class="col-md-12">
-    <hr>
-  </div>
-</div>
-
-      <div class="row">
-        <div class="col-md-12 code">
-          <img class="img-responsive" src="images/coding-1200_large.jpg" alt="computer code">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-muted text-center">Featured Work</h2>
+            </div>
         </div>
-      </div>
-
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-muted text-center">Featured Work</h2>
-        </div>
-      </div>
-
-      <div class="row text-center">
-        <div class="col-md-4">
-          <img class="img-responsive project" src="images/circles-800_small.jpg" data-toggle="modal" data-target="#project1" alt="circles project image">
-          <h3 class="text-uppercase">Circles</h3>
-          <p>
-
-          </p>
-        </div>
-        <div class="col-md-4">
-          <img class="img-responsive project" src="images/todo-800_small.jpg" data-toggle="modal" data-target="#project2" alt="todo list project image"/>
-          <h3 class="text-uppercase">ToDo List</h3>
-        </div>
-        <div class="col-md-4">
-          <img class="img-responsive project" src="http://placehold.it/350x150" alt="" />
-          <h3 class="text-uppercase">Juice</h3>
-          <p>
-            http://google.com
-          </p>
-        </div><!--col-->
-      </div><!--row-->
-      <footer>
         <div class="row text-center">
-          <div class="col-med-12">
-            <ul class="social">
-              <li class="fontawesome-github"></li>
-              <li class="fontawesome-linkedin"></li>
-              <li class="zocial-twitter"></li>
-            </ul>
-          </div>
-        </div>
-      </footer>
+            <div class="col-md-4">
+                <img alt="circles project image" class="img-responsive project" data-target="#project1" data-toggle="modal" src="images/circles-800_small.jpg">
+                <h3 class="text-uppercase">Circles</h3>
+                <p></p>
+            </div>
+            <div class="col-md-4">
+                <img alt="todo list project image" class="img-responsive project" data-target="#project2" data-toggle="modal" src="images/todo-800_small.jpg">
+                <h3 class="text-uppercase">ToDo List</h3>
+            </div>
+            <div class="col-md-4">
+                <img alt="nothing yet" class="img-responsive project" src="http://lorempixel.com/360/270/fashion/1/">
+                <h3 class="text-uppercase">Juice</h3>
+            </div><!--col-->
+        </div><!--row-->
+        <footer>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <ul class="social">
+                        <li class="fontawesome-github"></li>
+                        <li class="fontawesome-linkedin"></li>
+                        <li class="zocial-twitter"></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
     </div><!--container-->
-
     <!-- Modal 1-->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="project1" role="dialog" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
                     <h4 class="modal-title text-center" id="myModalLabel1">Circles</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/circles-800_small.jpg" alt="circles project">
-                    <p>
-                      This is one of the first projects that I did a code-along with. This is a fun app that plays sounds and images with key stokes. It was done
-                      with javascript built on Paper.js.
-                    </p>
-                    <p>
-                      Steele, C. (2015). The Web Developer Bootcamp. Retrieved from https://www.udemy.com/the-web-developer-bootcamp
-                    </p>
+                    <img alt="circles project" class="img-responsive" src="images/circles-800_small.jpg">
+                    <p>This is one of the first projects that I did a code-along with. This is a fun app that plays sounds and images with key stokes. It was done with javascript built on Paper.js.</p>
+                    <p>Steele, C. (2015). The Web Developer Bootcamp. Retrieved from https://www.udemy.com/the-web-developer-bootcamp</p>
                     <div class="text-center">
-                      <a class="btn btn-info" href="https://github.com/cozy2963/circles" target="blank" role="button">GITHUB</a>
+                        <a class="btn btn-info" href="https://github.com/cozy2963/circles" role="button" target="blank">GITHUB</a>
                     </div>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Modal 2 -->
-    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    </div><!-- Modal 2 -->
+    <div aria-hidden="true" aria-labelledby="myModalLabel" class="modal fade" id="project2" role="dialog" tabindex="-1">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title text-center" id="myModalLabel2">ToDo List</h4>
+                    <h4 class="modal-title text-center">ToDo List</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/todo-800_small.jpg" alt="To do list project">
-                    <p>
-                      This is code-along project done in a bootcamp class. This app is a simple todo list using basic javascript.
-                      <p>
-                        Steele, C. (2015). The Web Developer Bootcamp. Retrieved from https://www.udemy.com/the-web-developer-bootcamp
-                      </p>
+                    <img alt="To do list project" class="img-responsive" src="images/todo-800_small.jpg">
+                    <p>This is code-along project done in a bootcamp class. This app is a simple todo list using basic javascript.</p>
+                    <p>Steele, C. (2015). The Web Developer Bootcamp. Retrieved from https://www.udemy.com/the-web-developer-bootcamp</p>
                     <div class="text-center">
-                      <a class="btn btn-info" href="https://github.com/cozy2963/toDoList" target="blank" role="button">GITHUB</a>
+                        <a class="btn btn-info" href="https://github.com/cozy2963/toDoList" role="button" target="blank">GITHUB</a>
                     </div>
-                    </p>
+                    <p></p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
                 </div>
             </div>
         </div>
     </div>
-  </body>
+</body>
 </html>
